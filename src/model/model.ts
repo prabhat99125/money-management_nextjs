@@ -1,4 +1,6 @@
 import mongoose from "mongoose";
+import { connect } from "@/dbConfig/db";
+connect();
 
 const userSchema = new mongoose.Schema({
     username: { type: String, required: true },
