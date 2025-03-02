@@ -20,7 +20,7 @@ export async function POST(req: NextRequest) {
         return userRespons;
     } catch (error) {
         console.log(error);
-        return NextResponse.json({ massage: 'server error', stetus: 500 })
+        return NextResponse.json({ massage: 'server error', stetus: 500 });
 
     }
 }
